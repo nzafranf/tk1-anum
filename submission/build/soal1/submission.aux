@@ -1,0 +1,137 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{indonesian}{}
+\citation{heath}
+\citation{norris}
+\citation{cormen}
+\citation{norris}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Pendahuluan}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data dan Validasi}{2}{section.2}\protected@file@percent }
+\newlabel{sec:data}{{2}{2}{Data dan Validasi}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Deskripsi data}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Prosedur validasi}{2}{subsection.2.2}\protected@file@percent }
+\citation{stewart}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Hasil validasi}{3}{subsection.2.3}\protected@file@percent }
+\newlabel{subsec:hasilvalidasi}{{2.3}{3}{Hasil validasi}{subsection.2.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Hasil validasi matriks transisi. Untuk semua $N$, dimensi sesuai, seluruh elemen hingga dan nonnegatif, rantai irreducible dan aperiodik, dan setiap baris memuat 2--4 elemen tak-nol.}}{3}{table.2.1}\protected@file@percent }
+\newlabel{tab:validasi}{{2.1}{3}{Hasil validasi matriks transisi. Untuk semua $N$, dimensi sesuai, seluruh elemen hingga dan nonnegatif, rantai irreducible dan aperiodik, dan setiap baris memuat 2--4 elemen tak-nol}{table.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Formulasi dan Penanganan Singularitas}{3}{section.3}\protected@file@percent }
+\newlabel{sec:formulasi}{{3}{3}{Formulasi dan Penanganan Singularitas}{section.3}{}}
+\newlabel{eq:steady}{{3.1}{3}{Formulasi dan Penanganan Singularitas}{equation.3.1}{}}
+\citation{stewart}
+\citation{golub}
+\citation{lapack}
+\newlabel{eq:B}{{3.2}{4}{Formulasi dan Penanganan Singularitas}{equation.3.2}{}}
+\newlabel{eq:normal}{{3.3}{4}{Formulasi dan Penanganan Singularitas}{equation.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Identifikasi Struktur Banded}{4}{section.4}\protected@file@percent }
+\newlabel{sec:band}{{4}{4}{Identifikasi Struktur Banded}{section.4}{}}
+\newlabel{eq:pq}{{4.1}{4}{Identifikasi Struktur Banded}{equation.4.1}{}}
+\newlabel{eq:bandB}{{4.2}{4}{Identifikasi Struktur Banded}{equation.4.2}{}}
+\citation{heath}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Kebutuhan memori penyimpanan $B$ dalam byte (\texttt  {float64}, 8 byte per elemen): dense $N^2$, pita $(p+q+1)N$, dan pita dengan ruang fill-in $(2p+q+1)N$. Rasio = dense dibagi pita dengan fill-in.}}{5}{table.4.1}\protected@file@percent }
+\newlabel{tab:storage}{{4.1}{5}{Kebutuhan memori penyimpanan $B$ dalam byte (\texttt {float64}, 8 byte per elemen): dense $N^2$, pita $(p+q+1)N$, dan pita dengan ruang fill-in $(2p+q+1)N$. Rasio = dense dibagi pita dengan fill-in}{table.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Metode Penyelesaian}{5}{section.5}\protected@file@percent }
+\newlabel{sec:metode}{{5}{5}{Metode Penyelesaian}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}LU dense dengan partial pivoting}{5}{subsection.5.1}\protected@file@percent }
+\citation{golub}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5.1}{\ignorespaces LU dense dengan \emph  {partial pivoting} dan penyelesaian $Bz=b$}}{6}{algorithm.5.1}\protected@file@percent }
+\newlabel{alg:dense}{{5.1}{6}{LU dense dengan partial pivoting}{algorithm.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Solver banded bergaya Thomas}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5.2}{\ignorespaces Faktorisasi dan penyelesaian banded dengan \emph  {partial pivoting}. Notasi $B_{ij}$ berarti elemen yang disimpan di $AB_{p+q+1+i-j,\,j}$.}}{7}{algorithm.5.2}\protected@file@percent }
+\newlabel{alg:band}{{5.2}{7}{Solver banded bergaya Thomas}{algorithm.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Uji kebenaran}{7}{subsection.5.3}\protected@file@percent }
+\citation{golub}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Uji kebenaran pada matriks kecil.}}{8}{table.5.1}\protected@file@percent }
+\newlabel{tab:uji}{{5.1}{8}{Uji kebenaran pada matriks kecil}{table.5.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Eksperimen Kinerja dan Analisis Kompleksitas}{8}{section.6}\protected@file@percent }
+\newlabel{sec:eksperimen}{{6}{8}{Eksperimen Kinerja dan Analisis Kompleksitas}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Rancangan eksperimen}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Hasil}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Waktu (ms, minimum dari 15 ulangan) dan memori (KiB) untuk data soal.}}{9}{table.6.1}\protected@file@percent }
+\newlabel{tab:bench}{{6.1}{9}{Waktu (ms, minimum dari 15 ulangan) dan memori (KiB) untuk data soal}{table.6.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Waktu solver terhadap $N$ (skala log--log). Marker kosong dan garis putus-putus adalah rantai sintetis $N=1024$ dan $2048$; garis abu-abu adalah garis bantu $\propto N^3$ dan $\propto N$.}}{9}{figure.6.1}\protected@file@percent }
+\newlabel{fig:waktu}{{6.1}{9}{Waktu solver terhadap $N$ (skala log--log). Marker kosong dan garis putus-putus adalah rantai sintetis $N=1024$ dan $2048$; garis abu-abu adalah garis bantu $\propto N^3$ dan $\propto N$}{figure.6.1}{}}
+\citation{heath}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Memori terhadap $N$. Garis tebal menunjukkan total \texttt  {.nbytes} array yang disimpan solver; garis bertitik dengan marker silang menunjukkan puncak \texttt  {tracemalloc}.}}{10}{figure.6.2}\protected@file@percent }
+\newlabel{fig:memori}{{6.2}{10}{Memori terhadap $N$. Garis tebal menunjukkan total \texttt {.nbytes} array yang disimpan solver; garis bertitik dengan marker silang menunjukkan puncak \texttt {tracemalloc}}{figure.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Analisis kompleksitas}{10}{subsection.6.3}\protected@file@percent }
+\newlabel{eq:flopband}{{6.1}{10}{Analisis kompleksitas}{equation.6.1}{}}
+\citation{heath}
+\citation{higham}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Kemiringan garis log--log (pangkat empiris $N$) terhadap nilai teoretis. Kolom terakhir memakai $N=256$, $512$ dan dua titik sintetis.}}{11}{table.6.2}\protected@file@percent }
+\newlabel{tab:slope}{{6.2}{11}{Kemiringan garis log--log (pangkat empiris $N$) terhadap nilai teoretis. Kolom terakhir memakai $N=256$, $512$ dan dua titik sintetis}{table.6.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Analisis Kondisi dan Galat}{11}{section.7}\protected@file@percent }
+\newlabel{sec:kondisi}{{7}{11}{Analisis Kondisi dan Galat}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Ukuran yang dihitung}{11}{subsection.7.1}\protected@file@percent }
+\newlabel{eq:kappa}{{7.1}{11}{Ukuran yang dihitung}{equation.7.1}{}}
+\citation{higham}
+\citation{higham}
+\citation{higham}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7.1}{\ignorespaces Bilangan kondisi $\kappa _1(B)$ dari faktor $PB=LU$}}{12}{algorithm.7.1}\protected@file@percent }
+\newlabel{alg:kappa}{{7.1}{12}{Ukuran yang dihitung}{algorithm.7.1}{}}
+\newlabel{eq:eta}{{7.2}{12}{Ukuran yang dihitung}{equation.7.2}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7.2}{\ignorespaces Solusi acuan $\pi ^\ast $ dan galat maju $\delta $ dengan perbaikan iteratif dan residual eksak}}{12}{algorithm.7.2}\protected@file@percent }
+\newlabel{alg:acuan}{{7.2}{12}{Ukuran yang dihitung}{algorithm.7.2}{}}
+\newlabel{eq:galatmaju}{{7.3}{12}{Ukuran yang dihitung}{equation.7.3}{}}
+\citation{norris}
+\citation{norris}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Hubungan $\kappa _1(B)$ dengan waktu pencapaian halte~1}{13}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Hasil}{13}{subsection.7.3}\protected@file@percent }
+\newlabel{subsec:hasilkondisi}{{7.3}{13}{Hasil}{subsection.7.3}{}}
+\citation{higham}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Kondisi dan galat residual ($\kappa _1$ pada norma-1, $r$ pada norma-2, $\eta $ pada norma-1). Nilai sama untuk solver dense dan banded. Dua baris terakhir adalah rantai sintetis.}}{14}{table.7.1}\protected@file@percent }
+\newlabel{tab:kondisi}{{7.1}{14}{Kondisi dan galat residual ($\kappa _1$ pada norma-1, $r$ pada norma-2, $\eta $ pada norma-1). Nilai sama untuk solver dense dan banded. Dua baris terakhir adalah rantai sintetis}{table.7.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces Galat maju terhadap solusi acuan eksak ($\delta $ pada norma-1) dan pembandingnya. Nilai $\delta $ sama untuk solver dense dan banded, dan $\max _i\lvert \hat  \pi ^{\mathrm  {dense}}_i-\hat  \pi ^{\mathrm  {band}}_i\rvert =0$ pada semua $N$. $\varepsilon =2^{-53}$.}}{14}{table.7.2}\protected@file@percent }
+\newlabel{tab:galatmaju}{{7.2}{14}{Galat maju terhadap solusi acuan eksak ($\delta $ pada norma-1) dan pembandingnya. Nilai $\delta $ sama untuk solver dense dan banded, dan $\max _i\lvert \hat \pi ^{\mathrm {dense}}_i-\hat \pi ^{\mathrm {band}}_i\rvert =0$ pada semua $N$. $\varepsilon =2^{-53}$}{table.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Kiri: $\kappa _1(B)$ terhadap $N$ (skala log--log); garis putus-putus dan marker kosong adalah rantai sintetis. Kanan: galat maju eksak $\delta $ terhadap indikator $\kappa _1\varepsilon $; semua titik berada di bawah garis $\delta =\kappa _1\varepsilon $.}}{14}{figure.7.1}\protected@file@percent }
+\newlabel{fig:kondisi}{{7.1}{14}{Kiri: $\kappa _1(B)$ terhadap $N$ (skala log--log); garis putus-putus dan marker kosong adalah rantai sintetis. Kanan: galat maju eksak $\delta $ terhadap indikator $\kappa _1\varepsilon $; semua titik berada di bawah garis $\delta =\kappa _1\varepsilon $}{figure.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Analisis}{14}{subsection.7.4}\protected@file@percent }
+\newlabel{subsec:analisiskondisi}{{7.4}{14}{Analisis}{subsection.7.4}{}}
+\citation{chomeyer}
+\citation{norris}
+\citation{norris}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Interpretasi Hasil}{15}{section.8}\protected@file@percent }
+\newlabel{sec:interpretasi}{{8}{15}{Interpretasi Hasil}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Prosedur}{15}{subsection.8.1}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {8.1}{\ignorespaces Ringkasan dan diagnosis distribusi steady state}}{16}{algorithm.8.1}\protected@file@percent }
+\newlabel{alg:interpretasi}{{8.1}{16}{Prosedur}{algorithm.8.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Hasil}{16}{subsection.8.2}\protected@file@percent }
+\newlabel{subsec:hasilinterpretasi}{{8.2}{16}{Hasil}{subsection.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Distribusi steady state $\hat  \pi _i$ terhadap nomor halte. Garis titik-titik horizontal adalah distribusi seragam $1/N$; titik biru dan garis putus-putus vertikal menandai halte dengan proporsi terbesar.}}{16}{figure.8.1}\protected@file@percent }
+\newlabel{fig:pi}{{8.1}{16}{Distribusi steady state $\hat \pi _i$ terhadap nomor halte. Garis titik-titik horizontal adalah distribusi seragam $1/N$; titik biru dan garis putus-putus vertikal menandai halte dengan proporsi terbesar}{figure.8.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces Nilai ekstrem $\hat  \pi $. Halte terbesar $i^\ast $ adalah halte $N$ dan halte terkecil adalah halte~1 untuk semua $N$. Kolom ``dalam 1\%'' adalah halte dengan $\hat  \pi _i\ge 0.99\,\hat  \pi _{i^\ast }$, dan $1/\pi _{i^\ast }$ adalah waktu kembali rata-rata ke halte terpadat (dalam interval).}}{17}{table.8.1}\protected@file@percent }
+\newlabel{tab:interpretasi}{{8.1}{17}{Nilai ekstrem $\hat \pi $. Halte terbesar $i^\ast $ adalah halte $N$ dan halte terkecil adalah halte~1 untuk semua $N$. Kolom ``dalam 1\%'' adalah halte dengan $\hat \pi _i\ge 0.99\,\hat \pi _{i^\ast }$, dan $1/\pi _{i^\ast }$ adalah waktu kembali rata-rata ke halte terpadat (dalam interval)}{table.8.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Mengapa halte terakhir terpadat}{17}{subsection.8.3}\protected@file@percent }
+\newlabel{subsec:mekanisme}{{8.3}{17}{Mengapa halte terakhir terpadat}{subsection.8.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Untuk $N=512$: $\hat  \pi _i$ (atas), peluang meninggalkan halte $1-T_{ii}$ (tengah), dan arus masuk $\DOTSB \sum@ \slimits@ _{j\ne  i}\hat  \pi _jT_{ji}$ (bawah).}}{18}{figure.8.2}\protected@file@percent }
+\newlabel{fig:arus}{{8.2}{18}{Untuk $N=512$: $\hat \pi _i$ (atas), peluang meninggalkan halte $1-T_{ii}$ (tengah), dan arus masuk $\sum _{j\ne i}\hat \pi _jT_{ji}$ (bawah)}{figure.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Kiri: drift $\mu _i=\DOTSB \sum@ \slimits@ _j(j-i)T_{ij}$ untuk $N=512$ (sumbu horizontal logaritmik). Kanan: $N\hat  \pi _i$ terhadap $i/N$ untuk keenam ukuran; kurva hampir berimpit.}}{19}{figure.8.3}\protected@file@percent }
+\newlabel{fig:drift}{{8.3}{19}{Kiri: drift $\mu _i=\sum _j(j-i)T_{ij}$ untuk $N=512$ (sumbu horizontal logaritmik). Kanan: $N\hat \pi _i$ terhadap $i/N$ untuk keenam ukuran; kurva hampir berimpit}{figure.8.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Implikasi operasional}{19}{subsection.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Rekomendasi}{19}{section.9}\protected@file@percent }
+\newlabel{sec:rekomendasi}{{9}{19}{Rekomendasi}{section.9}{}}
+\citation{lapack}
+\citation{higham}
+\citation{gth}
+\@writefile{lot}{\contentsline {table}{\numberline {9.1}{\ignorespaces Perbandingan solver dense dan banded ($p=2$, $q=1$). Waktu dan memori eksperimen diambil dari Tabel~\ref {tab:bench}; galat dari Tabel~\ref {tab:kondisi} dan~\ref {tab:galatmaju}.}}{20}{table.9.1}\protected@file@percent }
+\newlabel{tab:rekomendasi}{{9.1}{20}{Perbandingan solver dense dan banded ($p=2$, $q=1$). Waktu dan memori eksperimen diambil dari Tabel~\ref {tab:bench}; galat dari Tabel~\ref {tab:kondisi} dan~\ref {tab:galatmaju}}{table.9.1}{}}
+\bibcite{norris}{1}
+\bibcite{cormen}{2}
+\bibcite{heath}{3}
+\bibcite{stewart}{4}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {9.1}{\ignorespaces Alur yang disarankan untuk menghitung distribusi steady state}}{21}{algorithm.9.1}\protected@file@percent }
+\newlabel{alg:rekomendasi}{{9.1}{21}{Rekomendasi}{algorithm.9.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Kesimpulan}{21}{section.10}\protected@file@percent }
+\bibcite{golub}{5}
+\bibcite{lapack}{6}
+\bibcite{higham}{7}
+\bibcite{chomeyer}{8}
+\bibcite{gth}{9}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Kode Program}{22}{appendix.A}\protected@file@percent }
+\newlabel{lamp:kode}{{A}{22}{Kode Program}{appendix.A}{}}
+\@writefile{lol}{\contentsline {lstlisting}{generated/kode\textunderscore lampiran.py}{22}{lstlisting.-1}\protected@file@percent }
+\gdef \@abspage@last{24}

@@ -1,0 +1,11 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {1}Pendahuluan}{2}{section.1}%
+\contentsline {section}{\numberline {2}Formulasi matriks desain}{2}{section.2}%
+\contentsline {section}{\numberline {3}Isu numerik dan mitigasi}{2}{section.3}%
+\contentsline {section}{\numberline {4}Persamaan normal}{2}{section.4}%
+\contentsline {section}{\numberline {5}QR dengan rotasi Givens}{3}{section.5}%
+\contentsline {section}{\numberline {6}Perbandingan hasil dan biaya}{5}{section.6}%
+\contentsline {section}{\numberline {7}Evaluasi luar sampel dan interpretasi}{5}{section.7}%
+\contentsline {section}{\numberline {8}Pengaruh outlier}{7}{section.8}%
+\contentsline {section}{\numberline {9}Kesimpulan}{8}{section.9}%
+\contentsline {section}{\numberline {A}Program Reproduksi}{8}{appendix.A}%

@@ -1,0 +1,18 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {part}{Laporan 1: Analisis Perpindahan Penumpang Antarhalte}{3}{section*.1}%
+\contentsline {section}{\numberline {1}Pendahuluan dan Validasi Data}{3}{section.1}%
+\contentsline {section}{\numberline {2}Formulasi Sistem dan Struktur Pita}{4}{section.2}%
+\contentsline {section}{\numberline {3}Dua Solver dan Uji Ukuran Kecil}{4}{section.3}%
+\contentsline {section}{\numberline {4}Waktu, Memori, dan Kompleksitas}{5}{section.4}%
+\contentsline {section}{\numberline {5}Kondisi, Galat, dan Interpretasi}{6}{section.5}%
+\contentsline {section}{\numberline {6}Kesimpulan dan Rekomendasi}{7}{section.6}%
+\contentsline {part}{Laporan 2: Model SETAR untuk Prediksi Return Saham}{8}{section.6}%
+\contentsline {section}{\numberline {1}Pendahuluan}{8}{section.1}%
+\contentsline {section}{\numberline {2}Formulasi matriks desain}{8}{section.2}%
+\contentsline {section}{\numberline {3}Isu numerik dan mitigasi}{9}{section.3}%
+\contentsline {section}{\numberline {4}Persamaan normal}{9}{section.4}%
+\contentsline {section}{\numberline {5}QR dengan rotasi Givens}{10}{section.5}%
+\contentsline {section}{\numberline {6}Perbandingan hasil dan biaya}{12}{section*.5}%
+\contentsline {section}{\numberline {7}Evaluasi luar sampel dan interpretasi}{12}{section.7}%
+\contentsline {section}{\numberline {8}Pengaruh outlier}{14}{section.8}%
+\contentsline {section}{\numberline {9}Kesimpulan}{15}{section.9}%

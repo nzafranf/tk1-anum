@@ -1,0 +1,29 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {1}Pendahuluan}{2}{section.1}%
+\contentsline {section}{\numberline {2}Data dan Validasi}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Deskripsi data}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Prosedur validasi}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Hasil validasi}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Formulasi dan Penanganan Singularitas}{3}{section.3}%
+\contentsline {section}{\numberline {4}Identifikasi Struktur Banded}{4}{section.4}%
+\contentsline {section}{\numberline {5}Metode Penyelesaian}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}LU dense dengan partial pivoting}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Solver banded bergaya Thomas}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Uji kebenaran}{7}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Eksperimen Kinerja dan Analisis Kompleksitas}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Rancangan eksperimen}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Hasil}{9}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Analisis kompleksitas}{10}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Analisis Kondisi dan Galat}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Ukuran yang dihitung}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Hubungan $\kappa _1(B)$ dengan waktu pencapaian halte~1}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Hasil}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Analisis}{14}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Interpretasi Hasil}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Prosedur}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Hasil}{16}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Mengapa halte terakhir terpadat}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Implikasi operasional}{19}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Rekomendasi}{19}{section.9}%
+\contentsline {section}{\numberline {10}Kesimpulan}{21}{section.10}%
+\contentsline {section}{\numberline {A}Kode Program}{22}{appendix.A}%
