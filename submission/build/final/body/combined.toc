@@ -16,3 +16,7 @@
 \contentsline {section}{\numberline {7}Evaluasi luar sampel dan interpretasi}{12}{section.7}%
 \contentsline {section}{\numberline {8}Pengaruh outlier}{14}{section.8}%
 \contentsline {section}{\numberline {9}Kesimpulan}{15}{section.9}%
+\contentsline {section}{\numberline {A}Lampiran: Verifikasi dan Rincian Reproduksi}{17}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Uji solver untuk Soal 1}{17}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Nilai rinci dan rotasi pertama untuk Soal 2}{17}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Kode inti dari implementasi}{18}{subsection.A.3}%
